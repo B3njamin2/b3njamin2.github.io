@@ -1,0 +1,14 @@
+main {
+  font-size: 20px;
+  font-family:Montserrat, Roboto, Arial, sans-serif;
+}
+
+ul {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+ul li {
+  line-height: 35px;
+  font-style: italic;
+}

@@ -1,0 +1,60 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  height: 20%;
+  width: 20%;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 90px;
+}
+
+.text {
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 50px;
+  width: 61%;
+  line-height: 30px;
+	font-family:Montserrat, Roboto, Arial, sans-serif;
+}
+
+.statement {
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 15px;
+	margin-inline: 13%
+}
+
+.bio{
+	text-align: justify;
+}
+.text hr {
+  border: 0;
+  height: 4px;
+  width: 90%;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(205, 205, 205, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+  overflow: visible;
+}
+.text hr:after {
+  background-color: black;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.bio div {
+  margin-top: 50px;
+  font-size: 18px;
+}
